@@ -1,0 +1,129 @@
+body {
+    background-color: red;
+    font-family: 'questrial', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.imagem {
+    text-align: center;
+    padding-top: 15%;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    padding-bottom: 15px;
+    color: white;
+    text-align: center;
+}
+
+form {
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+.formulario {
+    padding: 10px 10px;
+    border-radius: 100px;
+}
+
+input[type=submit]{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: white;
+    border: none;
+    width: 50px;
+    height: 30px;
+    padding-left: 10px;
+    }
+
+input[type=text]{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 3px solid white;
+     color: white;
+     width: 250px;
+     height: 30px;
+     padding-left: 10px;
+    }
+
+input[type=number]{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 3px solid white;
+     color: white;
+     width: 250px;
+     height: 30px;
+     padding-left: 10px;
+    }
+
+
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  font-weight: bold;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: red;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'questrial', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-wrapper {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(-45deg, #6BF78B, #4C28D9, #FC7B1D, #4C28D9);
+    background-size: 400% 400%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: backgroundTransition 8s ease-in-out infinite;
+    
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+h2 {
+    text-transform: uppercase;
+} */
