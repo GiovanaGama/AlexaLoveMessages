@@ -8,7 +8,7 @@ img {
     height: 50px;
 }
 
-.imagem {
+.imagemHeart {
     text-align: center;
     padding-top: 15%;
 }
@@ -27,68 +27,67 @@ h2 {
 }
 
 form {
-   display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-  }
-  
-.formulario {
-    padding: 10px 10px;
-    border-radius: 100px;
 }
 
-input[type=submit]{
+.formulario {
+    float: left;
+}
+
+#sendButton {
+    border: none;
+    background: none;
+}
+
+#sendIcon {
+    top: 50%;
+    transform: translateY(25%);
+    width: 25px;
+    height: 25px;
+}
+
+input[type=text] {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
-    color: white;
-    background-color: white;
-    border: none;
-    width: 50px;
+    border: 3px solid white;
+    width: 250px;
     height: 30px;
     padding-left: 10px;
-    }
+}
 
-input[type=text]{
+input[type=number] {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
-     border-radius: 20px;
-     border: 3px solid white;
-     color: white;
-     width: 250px;
-     height: 30px;
-     padding-left: 10px;
-    }
-
-input[type=number]{
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-     border-radius: 20px;
-     border: 3px solid white;
-     color: white;
-     width: 250px;
-     height: 30px;
-     padding-left: 10px;
-    }
-
-
-
-
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: red;
-  font-weight: bold;
-  opacity: 1; /* Firefox */
+    border-radius: 20px;
+    border: 3px solid white;
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: red;
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    font-weight: bold;
+    opacity: 1;
+    /* Firefox */
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
-  color: red;
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: red;
 }
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: red;
+}
+
 
 /* @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 

@@ -17,12 +17,15 @@
 //     });
 // }
 
-function manipularMensagem(){
+function manipularMensagem() {
     const form_mensagem = document.getElementById("form-mensagem")
     const input_msg = document.getElementById("msg")
     const input_alexa = document.getElementById("alexa")
+}
 
-    form_mensagem.onsubmit = async (event) => {
+function sendMsg(input_msg, input_alexa, form_mensagem) {
+
+    form_mensagem.onsubmit = async(event) => {
         event.preventDefault()
         const msg_mensagem = input_msg.value
         const alexa_mensagem = input_alexa.value
@@ -31,14 +34,14 @@ function manipularMensagem(){
             alexa: alexa_mensagem
         })
 
-       // carregarMensagem()
+        // carregarMensagem()
         alert('Mensagem enviada!')
     }
 }
 
-function app(){
+function app() {
     console.log("App iniciado")
-    //carregarMensagem()
+        //carregarMensagem()
     manipularMensagem()
 }
 
